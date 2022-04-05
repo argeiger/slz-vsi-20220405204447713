@@ -1,12 +1,12 @@
 TF_VERSION               = "1.0"
-prefix                   = "< add user data here >"
-region                   = "< add user data here >"
+prefix                   = "pipeline"
+region                   = "us-east"
 tags                     = []
 vpcs                     = ["management", "workload"]
 enable_transit_gateway   = true
-hs_crypto_instance_name  = null
-hs_crypto_resource_group = null
-ssh_public_key           = "< add user data here >"
+hs_crypto_instance_name  = "hpcs-01"
+hs_crypto_resource_group = "Default"
+ssh_public_key           = ""
 vsi_image_name           = "ibm-ubuntu-16-04-5-minimal-amd64-1"
 vsi_instance_profile     = "cx2-2x4"
 vsi_per_subnet           = 1
